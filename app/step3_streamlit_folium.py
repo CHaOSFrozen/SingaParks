@@ -1,6 +1,6 @@
 import streamlit as st
 import folium
-from utils import *
+from utils import * # Imports Everything
 from streamlit_folium import folium_static
 from step2_process_data import location, mall_names, malls, complete_list
 
@@ -13,10 +13,10 @@ st.set_page_config(
     layout="wide",
     menu_items={"About": "Data is updated on one minute interval"})
 
-# create a wallpaper in the app
+# Create a wallpaper in the app
 set_bg("assets/wallpapers.jpg") 
 
-# create headers and information for the app
+# Create headers and information for the app
 head() 
 
 ####------- user to select hdb carpark ---------####
