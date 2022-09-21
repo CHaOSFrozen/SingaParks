@@ -1,6 +1,6 @@
 import streamlit as st
 import folium
-from utils import * # Imports Everything
+from utils import * 
 from streamlit_folium import folium_static
 from step2_process_data import location, mall_names, malls, complete_list
 

@@ -7,7 +7,7 @@ import streamlit as st
 url = "http://datamall2.mytransport.sg/ltaodataservice/CarParkAvailabilityv2"
 # headers = {"AccountKey": "",
 #           "accept": "application/json"}
-headers = {"AccountKey": st.secrets["LTA_API_Key"],
+headers = {"AccountKey": st.secrets["LTA_APIKey"],
            "accept": "application/json"}
 response = requests.request(method="get", url=url, headers=headers)
 lta_data = response.json()
