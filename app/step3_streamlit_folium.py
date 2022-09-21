@@ -10,7 +10,7 @@ from step2_process_data import location, mall_names, malls, complete_list
 st.set_page_config(
     page_title='Carpark Availability',
     page_icon=':shark:',
-    layout="wide",
+    layout="expanded",
     menu_items={"About": "Data is updated on one minute interval"})
 
 # Create a wallpaper in the app
