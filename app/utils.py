@@ -13,7 +13,7 @@ def head():
     """
     st.markdown("""
         <h2 style='text-align: center; margin-bottom: -35px;'>
-        SG Car Park App \U0001F17F
+        SingaParks \U0001F17F
         </h2>""", unsafe_allow_html=True)
 
     st.caption("""
